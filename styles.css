@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: large;
+  line-height: 2.0;
+  background: white
+  color(white): #333;
+  padding: 20px;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.skills-list {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.project {
+  margin: 1rem 0;
+}
+
+.project a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: #0077cc;
+}
+
+.social-links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #0077cc;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ddd;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
